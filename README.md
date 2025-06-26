@@ -1,8 +1,8 @@
-# 📚 RESTful Library API
+# RESTful Library API
 
 A production-ready REST API for managing a library's book collection, built with Go, MariaDB, and Docker.
 
-## 🌟 Features
+## Features
 
 - **Complete CRUD Operations**: Create, read, update, and delete books
 - **Advanced Search**: Search books by title or author
@@ -13,7 +13,7 @@ A production-ready REST API for managing a library's book collection, built with
 - **Production Ready**: Graceful shutdown, connection pooling, and error handling
 - **CORS Support**: Cross-origin resource sharing for web clients
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -89,7 +89,7 @@ docker run -p 8080:8080 \
    go run main.go
    ```
 
-## 📖 API Documentation
+## API Documentation
 
 ### Base URL
 ```
@@ -253,7 +253,7 @@ Common HTTP status codes:
 - `404` - Not Found (book doesn't exist)
 - `500` - Internal Server Error
 
-## 🏗️ Architecture
+## Architecture
 
 The application follows clean architecture principles:
 
@@ -272,7 +272,7 @@ The application follows clean architecture principles:
 └── README.md           # Documentation
 ```
 
-## 🛠️ Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -339,7 +339,7 @@ docker logs library-api
 docker-compose down
 ```
 
-## 📊 Performance Features
+## Performance Features
 
 - **Connection Pooling**: Configured for optimal database performance
 - **Pagination**: Efficient handling of large datasets
@@ -347,14 +347,14 @@ docker-compose down
 - **Graceful Shutdown**: Proper cleanup of resources
 - **Health Checks**: Built-in monitoring for container orchestration
 
-## 🔒 Security Features
+## Security Features
 
 - **Input Validation**: Comprehensive request validation
 - **SQL Injection Prevention**: Parameterized queries
 - **CORS Configuration**: Configurable cross-origin policies
 - **Non-root Container**: Security-hardened Docker image
 
-## 🚢 Production Deployment
+## Production Deployment
 
 For production deployment:
 
@@ -365,7 +365,7 @@ For production deployment:
 5. **Use secrets management for sensitive data**
 6. **Set up load balancing for high availability**
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -373,18 +373,18 @@ For production deployment:
 4. Add tests for new functionality
 5. Submit a pull request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🆘 Support
+## Support
 
 For support and questions:
 - Create an issue in the repository
 - Check the API documentation above
 - Review the logs using `docker logs library-api`
 
-## 🎯 Future Enhancements
+## Future Enhancements
 
 - [ ] Authentication and authorization
 - [ ] Rate limiting
