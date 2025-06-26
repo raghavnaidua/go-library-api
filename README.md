@@ -373,17 +373,6 @@ For production deployment:
 4. Add tests for new functionality
 5. Submit a pull request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-For support and questions:
-- Create an issue in the repository
-- Check the API documentation above
-- Review the logs using `docker logs library-api`
-
 ## Future Enhancements
 
 -  Authentication and authorization
