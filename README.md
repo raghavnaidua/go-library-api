@@ -24,8 +24,8 @@ A production-ready REST API for managing a library's book collection, built with
 
 1. **Clone and navigate to the project**:
    ```bash
-   git clone <repository-url>
-   cd library-api
+   git clone https://github.com/raghavnaidua/go-library-api.git
+   cd go-library-api
    ```
 
 2. **Start the application**:
